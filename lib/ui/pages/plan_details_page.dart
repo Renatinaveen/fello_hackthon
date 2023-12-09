@@ -1,6 +1,7 @@
 import 'package:fello_hackthon/model/savings_plans_model.dart';
 import 'package:fello_hackthon/resources/color_themes.dart';
 import 'package:fello_hackthon/resources/fonts_class.dart';
+import 'package:fello_hackthon/ui/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -70,7 +71,14 @@ class _PlanDetailsPageState extends State<PlanDetailsPage> {
                             backgroundColor: ColorThemes.green,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8))),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushAndRemoveUntil(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const HomePage(),
+                              ),
+                              (route) => false);
+                        },
                         child: const Text('Start Saving',
                             style: TextStyle(
                                 color: ColorThemes.white,
