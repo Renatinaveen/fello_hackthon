@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353142428224",
+    "project_id": "fello-hackthon",
+    "storage_bucket": "fello-hackthon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353142428224:android:9c2ffe6b0769d6826045a5",
+        "android_client_info": {
+          "package_name": "com.fello.hackthon.fello_hackthon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvnTgJG1bNSIartK8vFIKUbI89hB3j5LA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
